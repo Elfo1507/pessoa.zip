@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pessoa.zip</title>
+</head>
+<body>
+    <div style="height: 100vh; width: 100vw; display: flex; justify-content: center; align-items: center;">
+        <img id="anao" src="" alt="anao">
+    </div>
+    <script>
+        const anoes = [
+            'https://verminososporfutebol.com.br/wp-content/uploads/2017/07/Gigantes-do-Norte-time-de-anoes-de-Belem.jpg',
+            'https://www.ibahia.com/wp-content/uploads/fileadmin/representativas/RTEmagicC_anoesfv.jpg.jpg',
+            'https://anoesparaeventos.com.br/wp-content/uploads/2022/09/contratar-casal-de-anoes-tequileiros-rj.jpeg',
+            'https://live.staticflickr.com/2812/9352983902_94c1418c2f_z.jpg',
+            'https://i.ytimg.com/vi/Sug8YXNPvH4/hq2.jpg',
+            'https://extra.globo.com/incoming/22981986-754-7b9/w640h360-PROP/72644443_socgigante-leo-em-congresso-sobre-nanismo%27to-dentro%21%27.jpg',
+        ]
+        const anao = document.getElementById('anao')
+        anao.src = anoes[Math.floor(Math.random() * anoes.length)]
+    </script>
+</body>
+</html>
